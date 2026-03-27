@@ -71,8 +71,8 @@ body {
 .landing-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 40px;
     min-height: 100vh;
     min-height: 100dvh;
     padding: 3rem 1.5rem;
@@ -88,10 +88,6 @@ body {
 
 .logo img {
     width: 100%;
-}
-
-.hero-content {
-    margin: auto 0;
 }
 
 .hero-title {
@@ -115,6 +111,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    flex: 1 100%;
+    justify-content: end;
 }
 
 .status-title {
@@ -183,7 +181,5 @@ footer {
 @media (max-width: 576px) {
     .logo {
         width: 90%;
-        position: absolute;
-        transform: translate(10px, -20%);
     }
 }
